@@ -25,7 +25,10 @@
 		<link rel="stylesheet" href="css/plugins.css" />
 
         <!-- Core Style Css -->
-        <link rel="stylesheet" href="css/style.css" />
+		<link rel="stylesheet" href="css/style.css" />
+		
+		<!-- Dev Icons -->
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.10.1/devicon.min.css">
 
     </head>
 
@@ -223,11 +226,6 @@
 										<i class="fab fa-js card-text"></i>
 										<p class="card-title">JavaScipt</p>
 									</div>
-									
-
-									<!-- <img class="card-body" src="https://img.icons8.com/wired/64/000000/javascript.png"/> -->
-									<!-- <h6>Development <span>80%</span></h6>
-									<div class="skills-progress"><span data-value='80%'></span></div> -->
 								</div>
 
 								<div class="skill card">
@@ -257,16 +255,25 @@
 										<i class="fab fa-css3-alt card-text"></i>
 										<p class="card-title">CSS3</p>
 									</div>
-									<!-- <i class="fab fa-css3-alt card-body"></i> -->
-									<!-- <h6>Marketing <span>75%</span></h6>
-									<div class="skills-progress"><span data-value='75%'></span></div> -->
+								</div>
+								<div class="skill card img-wrap">
+									<div class="card-body skill-body">
+										<i class="devicon-bootstrap-plain card-text"></i>
+										<p class="card-title">Bootstrap</p>
+									</div>
 								</div>
 								<div class="skill card">
 									<div class="card-body skill-body">
 										<i class="fab fa-git-square card-text"></i>
 										<p class="card-title">GIT</p>
 									</div>
-									<!-- <i class="fab fa-git-square card-body"></i> -->
+									
+								</div>
+								<div class="skill card">
+									<div class="card-body skill-body">
+										<i class="devicon-npm-original-wordmark card-text"></i>
+										<p class="card-title">NPM</p>
+									</div>
 									
 								</div>
 								<div class="skill card">
@@ -274,23 +281,58 @@
 										<i class="fab fa-node card-text"></i>
 										<p class="card-title">Node.js</p>
 									</div>
-									<!-- <i class="fab fa-node card-body"></i> -->
 									
 								</div>
 								<div class="skill card">
 									<div class="card-body skill-body">
+										<i class="devicon-express-original card-text"></i>
+										<p class="card-title">Express</p>
+									</div>
+									
+								</div>
+								<!-- <div class="skill card">
+									<div class="card-body skill-body">
+										<i class="fab fa-node card-text"></i>
+										<p class="card-title">Node.js</p>
+									</div>
+									
+								</div> -->
+								<div class="skill card">
+									<div class="card-body skill-body">
 										<i class="fab fa-react card-text"></i>
-										<p class="card-title">React</p>
+										<p class="card-title">React.js</p>
 									</div>
 									<!-- <i class="fab fa-react card-body"></i> -->
 									
 								</div>
+
+								<div class="skill card">
+									<div class="card-body">
+										<i class="devicon-redux-original card-text"></i>
+										<p class="card-title">Redux</p>
+									</div>
+								</div>
+
 								<div class="skill card">
 									<div class="card-body skill-body">
-										<i class="fas fa-database card-text"></i>
+										<i class="devicon-postgresql-plain card-text"></i>
 										<p class="card-title">PostgreSQL</p>
 									</div>
-									<!-- <i class="fas fa-database card-body"></i> -->
+
+								</div>
+
+								<div class="skill card">
+									<div class="card-body skill-body">
+										<i class="devicon-sequelize-plain card-text"></i>
+										<p class="card-title">Sequelize</p>
+									</div>
+
+								</div>
+								<div class="skill card">
+									<div class="card-body skill-body">
+										<i class="devicon-amazonwebservices-original card-text"></i>
+										<p class="card-title">AWS</p>
+									</div>
 
 								</div>
 
@@ -420,12 +462,44 @@
 				<div class="project-container d-flex flex-wrap row justify-content-center">
 					
 					<div class="card project-card m-5">
+						<img src="img/portfolio/ultimutt-match.jpg" alt="image" class="d-block w-30 card-img-top">
+						<div class="card-body">
+							<div class="card-title project-title text-center">Ultimutt Match</div>
+							<div class="card-text project-text">
+								<div class="project-languages text-center">JavaScript, React.js, Redux, RESTful APIs, CSS, Bootstrap</div>
+								<div class="project-summary m-1 text-center"> A front-end application designed to match prospective dog owners with dogs in Santa Barbara, CA. This project focuses on using React.js to compartmentalize components and uses Redux reducers to store and update state. The state allows users to filter dogs by zip code, breed, age, gender, and size. I built the API for the project using test data. There is a “liked” feature to save dogs through local storage and cookie sessions. (Solo)
+								</div>
+								<div class="d-flex justify-content-center">
+									<a href="https://ultimutt-match.netlify.app/" target="_blank"><div class="project-links text-center">Visit Ultimutt Match</div></a>
+									<a href="https://github.com/ardeeter/ultimutt-match" target="_blank"><div class="project-links text-center ml-3"><span class="icon"><i class="fab fa-github"></i></span></div></a>
+									<!-- <a href="#" target="_blank"><div class="project-links text-center ml-3"><span class="icon"><i class="fas fa-video"></i></span></div></a> -->
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="card project-card m-5">
+						<img src="img/portfolio/layrfive.jpg" alt="image" class="d-block w-30 card-img-top">
+						<div class="card-body">
+							<div class="card-title project-title text-center">LayrFIVE</div>
+							<div class="card-text project-text">
+								<div class="project-languages text-center">JavaScript, Node.js, Express, EJS, Sequelize, PostgresSQL, AWS RESTful APIs, CSS, Bootstrap, HTML</div>
+								<div class="project-summary m-1 text-center"> A collaborative/social development site for software developers. The purpose of this website is to give developers a place to share their projects for others to comment and rate the quality of code in each language used. Users can post projects, collaborate with others, display different computer language skills, and provide feedback on others’ projects. (Team)
+								</div>
+								<div class="d-flex justify-content-center">
+									<!-- <a href="https://ultimutt-match.netlify.app/" target="_blank"><div class="project-links text-center">Visit Ultimutt Match</div></a> -->
+									<a href="https://github.com/laynemag/LayrFIVE" target="_blank"><div class="project-links text-center ml-3"><span class="icon"><i class="fab fa-github"></i></span></div></a>
+									<!-- <a href="#" target="_blank"><div class="project-links text-center ml-3"><span class="icon"><i class="fas fa-video"></i></span></div></a> -->
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="card project-card m-5">
 						<img src="img/portfolio/neighborhood_swatch.png" alt="image" class="d-block w-30 card-img-top">
 						<div class="card-body">
 							<div class="card-title project-title text-center">Neighborhood Swatch</div>
 							<div class="card-text project-text">
 								<div class="project-languages text-center">JavaScript, HTML, CSS, Bootstrap, jQuery, Firebase, RESTful APIs</div>
-								<div class="project-summary m-1 text-center">This front-end website was created for people who are looking to relocate and purchase a home in the Atlanta area. It recommends three neighborhoods based on income and populates graphs for age demographics, housing vacancy, and income.
+								<div class="project-summary m-1 text-center">This front-end website was created for people who are looking to relocate and purchase a home in the Atlanta area. It recommends three neighborhoods based on income and populates graphs for age demographics, housing vacancy, and income. (Team)
 								</div>
 								<div class="d-flex justify-content-center">
 									<a href="https://neighborhood-swatch.web.app/home.html" target="_blank"><div class="project-links text-center">Visit Neighborhood Swatch</div></a>
@@ -436,12 +510,29 @@
 						</div>
 					</div>
 					<div class="card project-card m-5">
+						<img src="img/portfolio/avicii2.jpg" alt="image" class="d-block w-30 card-img-top">
+						<div class="card-body">
+							<div class="card-title project-title text-center">Avicii Band Site</div>
+							<div class="card-text project-text">
+								<div class="project-languages text-center">JavaScript, Node.js, Express, EJS, Bootstrap, HTML, CSS, jQuery</div>
+								<div class="project-summary m-1 text-center">Musician website detailing biography and music produced. It features a tab for feedback and a chat using Socket.io. This website was developed using templating through Node.js with Express and EJS. (Solo)</div>
+								<div class="d-flex justify-content-center">
+									<!-- <a href="" target="_blank"><div class="project-links text-center">Visit Website </div></a> -->
+									<a href="https://github.com/Ardeeter/band_project" target="_blank"><div class="project-links text-center ml-3"><span class="icon"><i class="fab fa-github"></i></span></div></a>
+									<!-- <a href="#" target="_blank"><div class="project-links text-center ml-3"><span class="icon"><i class="fas fa-video"></i></span></div></a> -->
+								</div>
+							</div>
+						</div>
+					</div>
+				
+				
+					<div class="card project-card m-5">
 						<img src="img/portfolio/hero-rpg2.jpg" alt="image" class="d-block w-30 card-img-top">
 						<div class="card-body">
 							<div class="card-title project-title text-center">Hero RPG</div>
 							<div class="card-text project-text">
 								<div class="project-languages text-center">Python</div>
-								<div class="project-summary m-1 text-center">Role-playing fantasy game coded with object-oriented programming. Single player game where the player is the Hero and has to battle six different enemies, each with their own special power. The Hero collects money for each enemy he/she defeats. Between each battle, the Hero has the option to enter a store where he/she can purchase five different special powers available at different prices. </div>
+								<div class="project-summary m-1 text-center">Role-playing fantasy game coded with object-oriented programming. Single player game where the player is the Hero and has to battle six different enemies, each with their own special power. The Hero collects money for each enemy he/she defeats. Between each battle, the Hero has the option to enter a store where he/she can purchase five different special powers available at different prices. (Solo) </div>
 								<div class="d-flex justify-content-center">
 									<a href="https://github.com/Ardeeter/hero-rpg" target="_blank"><div class="project-links text-center"><span class="icon"><i class="fab fa-github"></i></span></div></a>
 									<!-- <a href="#" target="_blank"><div class="project-links text-center ml-3"><span class="icon"><i class="fas fa-video"></i></span></div></a> -->
@@ -455,7 +546,7 @@
 							<div class="card-title project-title text-center">Blackjack</div>
 							<div class="card-text project-text">
 								<div class="project-languages text-center">JavaScript, HTML, CSS</div>
-								<div class="project-summary m-1 text-center">A version of the classic casino game. Single player against a dealer featuring the options to hit, stand, and play again. Tracks player wins, dealer wins, and cards left.</div>
+								<div class="project-summary m-1 text-center">A version of the classic casino game. Single player against a dealer featuring the options to hit, stand, and play again. Tracks player wins, dealer wins, and cards left. (Solo)</div>
 								<div class="d-flex justify-content-center">
 									<a href="https://ard-blackjack.netlify.app/" target="_blank"><div class="project-links text-center">Play Blackjack </div></a>
 									<a href="https://github.com/Ardeeter/Blackjack-exercise" target="_blank"><div class="project-links text-center ml-3"><span class="icon"><i class="fab fa-github"></i></span></div></a>
@@ -464,24 +555,8 @@
 							</div>
 						</div>
 					</div>
-
-					<div class="card project-card m-5">
-						<img src="img/portfolio/avicii2.jpg" alt="image" class="d-block w-30 card-img-top">
-						<div class="card-body">
-							<div class="card-title project-title text-center">Avicii Band Site</div>
-							<div class="card-text project-text">
-								<div class="project-languages text-center">JavaScript, Node.js, Express, EJS, Bootstrap, HTML, CSS, jQuery</div>
-								<div class="project-summary m-1 text-center">Musician website detailing biography and music produced. It features a tab for feedback and a chat using Socket.io. This website was developed using templating through Node.js with Express and EJS.</div>
-								<div class="d-flex justify-content-center">
-									<!-- <a href="" target="_blank"><div class="project-links text-center">Visit Website </div></a> -->
-									<a href="https://github.com/Ardeeter/band_project" target="_blank"><div class="project-links text-center ml-3"><span class="icon"><i class="fab fa-github"></i></span></div></a>
-									<!-- <a href="#" target="_blank"><div class="project-links text-center ml-3"><span class="icon"><i class="fas fa-video"></i></span></div></a> -->
-								</div>
-							</div>
-						</div>
-					</div>
 				</div>
-				
+
 				
 				<!-- <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
 					<ol class="carousel-indicators">
@@ -1039,7 +1114,9 @@
       	<!-- custom scripts -->
 		<script src="js/scripts.js"></script>
 		
-        <script src="js/scroll.js"></script>
+		<script src="js/scroll.js"></script>
+		
+	
 
     </body>
 </html>
